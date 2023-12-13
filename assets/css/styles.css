@@ -328,6 +328,7 @@ a {
   box-shadow: 0px 10px 22px 0px rgba(0, 0, 0, 0.51);
   -webkit-box-shadow: 0px 10px 22px 0px rgba(0, 0, 0, 0.51);
   -moz-box-shadow: 0px 10px 22px 0px rgba(0, 0, 0, 0.51);
+  transition: 0.25s;
 }
 
 .hiw__subtitle {
@@ -590,6 +591,7 @@ a {
   box-shadow: 0px 10px 22px 0px rgba(0, 0, 0, 0.51);
   -webkit-box-shadow: 0px 10px 22px 0px rgba(0, 0, 0, 0.51);
   -moz-box-shadow: 0px 10px 22px 0px rgba(0, 0, 0, 0.51);
+  transition: 0.25s;
 }
 
 .blog__text--box {
