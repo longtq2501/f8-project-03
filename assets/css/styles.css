@@ -83,13 +83,13 @@ a {
   padding: 0px 21px;
 }
 
-.nav__list li:hover a,
-.nav__list--position:first-child a {
+.nav__list li:hover a {
   color: var(--second-color);
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 1.75; /* 175% */
-  padding: 0px 21px;
+  padding: 4px 21px;
+  text-shadow: 1px 0 0 currentColor;
 }
 
 .nav__button--btn {
@@ -108,6 +108,23 @@ a {
 .nav__button--btn:hover {
     opacity: 0.9;
 }
+
+.nav__list--position {
+  position: relative;
+  text-shadow: 1px 0 0 currentColor;
+}
+
+.nav__list--position::before {
+  position: absolute;
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background: #fff;
+  border-radius: 50%;
+  top: 40%;
+  left: 8px;
+} 
 
 /* ======= HERO ======= */
 
