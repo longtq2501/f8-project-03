@@ -7,6 +7,9 @@
     <!-- ===== CSS ===== -->
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/styles.css" />
+    <!-- ANIMATION -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <!-- ===== EMBED FONT ===== -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -130,7 +133,9 @@
         <div class="content">
           <section class="inside-hero">
             <article class="hero__text">
-              <h1 class="hero__text__title">
+              <h1
+                class="hero__text__title"
+              >
                 Exceptional dental care for all ages.
               </h1>
               <span class="hero__text__desc"
@@ -168,6 +173,7 @@
             src="./assets/img/services-main-img.svg"
             alt=""
             class="services__img"
+            data-aos="fade-up-right"
           />
           <article class="services__subinfo">
             <!-- tag 1 -->
@@ -555,5 +561,9 @@
         </p>
       </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
